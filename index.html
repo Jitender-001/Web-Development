@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="/form/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="small-logo">
+                <img src="/form/studying.png" alt="girl-studying-logo">
+            </div>
+            <div class="heading-logo">
+                <h2>School Application</h2>
+            </div>
+            <div class="quote">
+                <p>This form collects information about the new student, such as the student's past school, age, health status, etc.</p>
+            </div>
+
+            <span>Student Name</span>
+            <div class="student-name">
+                <div class="first_name">
+                    <input type="text" name="firstname" id="firstname"yyy>
+                    <label for="firstname">First Name</label>
+                </div>
+
+                <div class="last_name">
+                    <input type="text" name="firstname" id="firstname"yyy>
+                    <label for="firstname">Last Name</label>
+                </div>
+            </div>
+
+            <span>DOB</span>
+            <div class="date_of_birth">
+                <input type="date">
+            </div>
+
+            <span>Gender</span>
+            <div class="gender">
+                <input type="radio" name="male" id="male" class="gender-details">Male
+                <input type="radio" name="female" id="female" class="gender-details">Female 
+            </div>
+
+            <span>School Last Attended</span>
+            <div class="last-school-attended">
+                <input type="text" name="last-school-attended" id="last-school-attended">
+            </div>
+
+            <span>Grade that you are applying for</span>
+            <div class="grade">
+                <input list="grades" name="grade" id="grade">
+                <datalist id="grades">
+                    <option value="MCA">
+                    <option value="M.Sc">
+                    <option value="M.com">
+                    <option value="B.Sc">
+                </datalist>
+            </div>
+            
+            <span>Parent Name</span>
+            <div class="parent-name">
+                <div class="first_name">
+                    <input type="text" name="firstname" id="firstname"yyy>
+                    <label for="firstname">First Name</label>
+                </div>
+
+                <div class="last_name">
+                    <input type="text" name="firstname" id="firstname"yyy>
+                    <label for="firstname">Last Name</label>
+                </div>
+            </div>
+
+            <span>Phone Number</span>
+            <div class="last-school-attended">
+                <input type="text" name="last-school-attended" id="last-school-attended">
+            </div>
+
+            <span>Email Address</span>
+            <div class="last-school-attended">
+                <input type="text" name="last-school-attended" id="last-school-attended">
+            </div>
+
+            <span>Occupation</span>
+            <div class="last-school-attended">
+                <input type="text" name="last-school-attended" id="last-school-attended">
+            </div>
+
+            <span>Any medical condition to mention about the student?</span>
+            <div class="medical-condition">
+                <textarea name="medical-condition" id="medical-condition" cols="77" rows="6"></textarea>
+            </div>
+
+            <span>Vaccinations Completed</span>
+            <div class="vaccinations-completed">
+                <textarea name="vaccinations-completed" id="vaccinations-completed" cols="77" rows="6"></textarea>
+            </div>
+
+            <span>Birth Certificate</span>
+            <div class="birth-certificate">
+                <input type="file" id="birth-certificates">
+            </div>
+
+            <span>Student Picture</span>
+            <div class="student-picture">
+                <input type="file" id="student-picture">
+            </div>
+
+            <span>Previous School Transfer Certificate</span>
+            <div class="previous-certificate">
+                <input type="file" id="previous-certificate">
+            </div>
+
+            <span>Terms and Conditions</span>
+            <div class="term-condition">
+                <p id="term-condition">It is required for the student to clear an entrance test and interview to be admitted to the school.
+
+                    I agree with the terms and conditions of the school and declare that the information provided above is correct.</p>
+            </div>
+            <div class="checkpoint">
+                <input type="checkbox" id="term-check">I accept the Terms and Conditions.
+            </div>
+
+            <div class="btn">
+                <button class="submit-btn">Submit</button>
+            </div>
+    </div>
+</body>
+</html>
